@@ -170,13 +170,38 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    height: 300px;
 }
 
 .call-to-action .inner-action {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    background-color: #3882f6;
+    height: 150px;
+    width: 50vw;
+    border-radius: 16px;
+}
+
+.inner-action h1, .inner-action p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #F9FAF8;
+}
+
+.inner-action h1 {
+    font-size: 24px;
+}
+
+.inner-action p {
+    font-size: 18px;
+}
+
+.inner-action button {
+    padding: 6px 12px;
+    background-color:#3882F6;
+    color:#F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 6px;
 }
 
 .footer {
